@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pdcconf.in/speakers/satyavel/</loc>
+  </url><url>
     <loc>https://pdcconf.in/partners/platinium/airbus/</loc>
   </url><url>
     <loc>https://pdcconf.in/team/core/ajay/</loc>
@@ -43,6 +45,8 @@
     <loc>https://pdcconf.in/team/core/prateek/</loc>
   </url><url>
     <loc>https://pdcconf.in/team/core/ravikanth/</loc>
+  </url><url>
+    <loc>https://pdcconf.in/speakers/</loc>
   </url><url>
     <loc>https://pdcconf.in/team/core/sunish/</loc>
   </url><url>
