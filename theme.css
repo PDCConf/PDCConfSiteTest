@@ -651,11 +651,6 @@ a.btn.btn-icon-only, button.btn-icon-only, input[type=button].btn-icon-only, inp
     border-color: transparent
 }
 
-a.disabled {
-    pointer-events: none;
-    cursor: default;
-  }
-
 a.btn.btn-icon-only .icon, button.btn-icon-only .icon, input[type=button].btn-icon-only .icon, input[type=reset].btn-icon-only .icon, input[type=submit].btn-icon-only .icon, span.btn.btn-icon-only .icon {
     margin: .25rem;
     margin: var(--space-2);
@@ -970,25 +965,20 @@ a.social:focus, a.social:hover {
 
 @-webkit-keyframes scrollDownMove {
     0% {
-        -webkit-transform: translateY(-.15em);
         transform: translateY(-.15em)
     }
     to {
-        -webkit-transform: translateY(.65em);
         transform: translateY(.65em)
     }
 }
 
 @keyframes scrollDownMove {
     0% {
-        -webkit-transform: translateY(-.15em);
         transform: translateY(-.15em)
     }
     to {
-        -webkit-transform: translateY(.65em);
         transform: translateY(.65em)
-    }
-}
+ 
 
 @media (max-width:59.99em) {
     .jumbo .inner {
@@ -1061,12 +1051,8 @@ a.social:focus, a.social:hover {
 }
 
 .speakers ul li .speaker, .speakers ul li .speaker .info {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
-    -webkit-box-align: center;
     align-items: center
 }
 
@@ -1107,12 +1093,9 @@ a.social:focus, a.social:hover {
 
 .tickets ul {
     list-style: none;
-    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     width: 100%;
     padding-left: 0
@@ -1131,12 +1114,8 @@ a.social:focus, a.social:hover {
     border: thin solid var(--darken-1);
     box-shadow: .125rem .125rem .25rem rgba(0, 0, 0, .25);
     box-shadow: var(--space-1) var(--space-1) var(--space-2) var(--darken-2);
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
-    -webkit-box-align: center;
     align-items: center;
     text-decoration: none;
     color: inherit
@@ -1179,10 +1158,8 @@ a.social:focus, a.social:hover {
 
 .partners-group ul {
     list-style: none;
-    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    -webkit-box-pack: center;
     justify-content: center;
     padding: 0
 }
@@ -1198,21 +1175,19 @@ a.social:focus, a.social:hover {
 .partners-group .partner {
     padding: .5rem;
     padding: var(--space-3);
-    display: block;
     height: 100%;
     width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-origin: content-box;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background-color: #f8f8ff;
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, .07), 0 2px 2px 0 rgba(0, 0, 0, .15);
     box-shadow: var(--box-shadow-1);
-    -webkit-transition: box-shadow .3s cubic-bezier(.4, 0, .2, 1);
     transition: box-shadow .3s cubic-bezier(.4, 0, .2, 1);
-    -webkit-transition: box-shadow var(--animation);
     transition: box-shadow var(--animation);
     cursor: pointer;
-    color: transparent
+    color: transparent;
+    overflow: hidden
 }
 
 .partners-group .partner:focus, .partners-group .partner:hover {
@@ -1220,6 +1195,20 @@ a.social:focus, a.social:hover {
     box-shadow: var(--box-shadow-2)
 }
 
+.partners-group .partner picture {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.partners-group .partner picture>* {
+    max-width: 100%;
+    max-height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%
+}
 .partners-group.partner-platinium ul li {
     height: 180px;
     height: var(--partner-platinum-height);
@@ -1405,10 +1394,7 @@ a .icon.icon-right {
 }
 
 form {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column
 }
 
@@ -1421,9 +1407,7 @@ form input {
     border: none;
     border-bottom: .125rem solid rgba(0, 0, 0, .25);
     border-bottom: var(--space-1) solid var(--darken-2);
-    -webkit-transition: border .3s cubic-bezier(.4, 0, .2, 1);
     transition: border .3s cubic-bezier(.4, 0, .2, 1);
-    -webkit-transition: border var(--animation);
     transition: border var(--animation);
     margin: .5rem 0;
     margin: var(--space-3) 0;
@@ -1479,8 +1463,18 @@ form input:invalid {
 }
 
 .album .img {
-    background-size: cover;
-    background-position: 50%
+    background: rgba(0, 0, 0, .25);
+    background: var(--darken-2);
+    overflow: hidden
+}
+
+.album .img>* {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    width: 100%;
+    height: 100%
 }
 
 .album .inner {
@@ -1490,14 +1484,9 @@ form input:invalid {
     background-color: var(--primary);
     color: #fff;
     color: var(--primary-txt);
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     text-align: center
 }
@@ -1589,6 +1578,15 @@ form input:invalid {
 }
 
 .home main .info .wrapper {
+    display: -ms-grid;
+    display: grid;
+    margin: 0 auto;
+    -ms-grid-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: .5rem;
+    grid-gap: var(--space-3);
     max-width: 1100px;
     max-width: var(--theJdrSize);
     margin: 0 auto;
