@@ -10,6 +10,7 @@
     --base-text: #424242;
     --base-secondary-text: #636363;
     --link-secondary-text: #424242;
+    
     --darken-1: rgba(0, 0, 0, 0.125);
     --darken-2: rgba(0, 0, 0, 0.25);
     --darken-3: rgba(0, 0, 0, 0.5);
@@ -74,6 +75,26 @@
     --fg-mark-t2: #fff;
     --bg-mark-t2: #11a7e0;
     --base-grid-height: 4.5em
+    --base-grid-height: 4.5em;
+    --footer-bg: #222;
+    --footer-fg: #8a8a8a
+}
+@media (prefers-color-scheme:dark) {
+    :root {
+        --base: #222;
+        --base-text: #ddd;
+        --primary: #0d47a1;
+        --toc-text: #64b5f6;
+        --color-hero: #181818;
+        --lighten-1: rgba(0, 0, 0, 0.125);
+        --lighten-2: rgba(0, 0, 0, 0.25);
+        --lighten-3: rgba(0, 0, 0, 0.5);
+        --darken-1: rgba(255, 255, 255, 0.125);
+        --darken-2: rgba(255, 255, 255, 0.25);
+        --darken-3: rgba(255, 255, 255, 0.5);
+        --footer-bg: #000;
+        --footer-fg: #777
+    }
 }
 
 html {
