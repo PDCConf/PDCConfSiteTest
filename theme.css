@@ -249,10 +249,9 @@ body>header input[type=checkbox]:checked~label .icon-close {
 }
 
 body>header nav {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-align: center;
-    align-items: center
+    align-items: stretch;
+    align-self: stretch
 }
 
 body>header nav ul {
