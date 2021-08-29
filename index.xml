@@ -35,6 +35,17 @@
     
     <item>
       <title></title>
+      <link>https://pdcconf.in/speakers/debabrata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pdcconf.in/speakers/debabrata/</guid>
+      <description>Debabrata have keen interest in working with opensource softwares, also been exploring the cloud native applications and regularly contributing to CNCF projects like chaos-mesh, kubernetes(ingress-controller).
+Recently being inducted as a Linux Foundation mentee, he has hone his interests in working with container services like docker and kubernetes also have learnt the basics of distributed file system and how container scheduling works in production.
+Golang has always been his favourite language, also at times he likes to participate in weekend hackathons, speak at conferences which helps him to connect and network with people.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://pdcconf.in/speakers/gowri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -59,7 +70,7 @@ Responsible for defining product strategy and core deployment platform services 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pdcconf.in/speakers/vikas/</guid>
-      <description></description>
+      <description>Vikas Bhonsle is the CEO of Crayon Software Experts India Pvt Ltd. With a career experience spanning more than 25 years he built this company with a mission to help it&amp;rsquo;s customers build the commerical and technical foundation for a successful and secure cloud first, digital transformation journey. The company operates in more than 35 countries, has a Pan India presence and it&amp;rsquo;s strategy revolves around rightsizing IT estates for a cloud future, optimising hybrid and multi cloud environments, securing and managing modern workplaces and finally helping innovate with scalable data platforms, AI and IOT</description>
     </item>
     
     <item>
@@ -90,6 +101,15 @@ Responsible for defining product strategy and core deployment platform services 
     </item>
     
     <item>
+      <title>CloudLabsAI</title>
+      <link>https://pdcconf.in/partners/gold/spektrasystems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pdcconf.in/partners/gold/spektrasystems/</guid>
+      <description>CloudLabs, provides easy-to-use, high-performance hands-on lab experience to companies of all sizes. We cater to the IT companies, educational organizations, training partners and more. It is for those that wish to exhibit innovative business ideas, enable effective technical upskilling, and present optimized solutions for training transformation. With CloudLabs, organizations can deliver fast and reliable cloud infrastructures that exceed business objectives effortlessly.</description>
+    </item>
+    
+    <item>
       <title>Code of Conduct</title>
       <link>https://pdcconf.in/code-of-conduct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -114,6 +134,15 @@ Responsible for defining product strategy and core deployment platform services 
       
       <guid>https://pdcconf.in/team/core/jaap/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>https://pdcconf.in/partners/support/microsoft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pdcconf.in/partners/support/microsoft/</guid>
+      <description>We are glad and ecnouraged to have support from Microsoft </description>
     </item>
     
     <item>
@@ -150,6 +179,16 @@ Responsible for defining product strategy and core deployment platform services 
       
       <guid>https://pdcconf.in/team/core/sunish/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Tecoholic</title>
+      <link>https://pdcconf.in/partners/support/tecoholic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pdcconf.in/partners/support/tecoholic/</guid>
+      <description>Tecoholic – The Global Tech Community Platform is an open community platform, which has been build “by community for community”. We connect industry professionals, vertical experts, and learners together bringing real-world relevance and career exposure for enhanced learning.
+We are continuously growing our community to help organizations in capability building with Skills-based learning. In the ever changing job roles, extending the learning outreach by nurturing the future ready and most desired professionals in the industry.</description>
     </item>
     
   </channel>
