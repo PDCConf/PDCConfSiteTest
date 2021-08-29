@@ -1621,22 +1621,10 @@ form input:invalid {
     }
 }
 
-.home main .info .numbers {
-    -webkit-box-flex: 1;
-    flex: 1 0 33vw;
-    margin: 0 2rem;
-    min-width: 33vw;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    width: 100%
-}
-
-@media (max-width:44.99em) {
-    .home main .info .numbers {
-        margin: 0
-    }
+.home main .info .number {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    min-width: 14ch
 }
 
 .home main .info .number strong {
@@ -1784,7 +1772,7 @@ form input:invalid {
 
 @supports (grid-template-columns:repeat(auto-fit, minmax(25vmin, 1fr))) {
     .home main .info .numbers {
-        -webkit-box-pack: center;
+  
         justify-content: center;
         display: grid;
         grid-template-columns: repeat(2, 1fr)
